@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [CAMtastic1.PcbDoc]
+   Generated File[CAMtastic1-Plated.TXT]
+   Generated File[CAMtastic1-BoardEdgeRout.TXT]
+   Generated File[CAMtastic1.LDP]
+   Generated File[CAMtastic1.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At ?? 08:15:26 On 2021.04.28

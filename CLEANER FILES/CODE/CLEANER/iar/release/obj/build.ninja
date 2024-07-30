@@ -1,0 +1,128 @@
+#Generating source browse information for project Solar_Robot_BoardTest1
+
+
+#Abbreviations
+cc = D$:\Technical\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\SourceIndexer.exe
+ll = D$:\Technical\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\PbdLink.exe
+bd = D$:\Technical\IAR$ Systems\Embedded$ Workbench$ 8.3\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build board.pbi : index board.xcl
+build clock_config.pbi : index clock_config.xcl
+build pin_mux.pbi : index pin_mux.xcl
+build fsl_adc16.pbi : index fsl_adc16.xcl
+build fsl_clock.pbi : index fsl_clock.xcl
+build fsl_common.pbi : index fsl_common.xcl
+build fsl_dspi.pbi : index fsl_dspi.xcl
+build fsl_flash.pbi : index fsl_flash.xcl
+build fsl_ftm.pbi : index fsl_ftm.xcl
+build fsl_gpio.pbi : index fsl_gpio.xcl
+build fsl_i2c.pbi : index fsl_i2c.xcl
+build fsl_lptmr.pbi : index fsl_lptmr.xcl
+build fsl_rcm.pbi : index fsl_rcm.xcl
+build fsl_rtc.pbi : index fsl_rtc.xcl
+build fsl_smc.pbi : index fsl_smc.xcl
+build fsl_uart.pbi : index fsl_uart.xcl
+build fsl_vref.pbi : index fsl_vref.xcl
+build fsl_wdog.pbi : index fsl_wdog.xcl
+build adc.pbi : index adc.xcl
+build APIProcessing.pbi : index APIProcessing.xcl
+build ValuesValidate.pbi : index ValuesValidate.xcl
+build fun_json.pbi : index fun_json.xcl
+build json.pbi : index json.xcl
+build ConfigAPIProcess.pbi : index ConfigAPIProcess.xcl
+build ConfigUart.pbi : index ConfigUart.xcl
+build DebugUart.pbi : index DebugUart.xcl
+build ZigbeeAPIMode.pbi : index ZigbeeAPIMode.xcl
+build ZigbeeUart.pbi : index ZigbeeUart.xcl
+build CommCommon.pbi : index CommCommon.xcl
+build serial_debug.pbi : index serial_debug.xcl
+build DefaultValues.pbi : index DefaultValues.xcl
+build delay.pbi : index delay.xcl
+build EdgeSense1.pbi : index EdgeSense1.xcl
+build EdgeSense2.pbi : index EdgeSense2.xcl
+build EdgeSenseCommon.pbi : index EdgeSenseCommon.xcl
+build eeprom.pbi : index eeprom.xcl
+build EepromMain.pbi : index EepromMain.xcl
+build eepromStdtoHalDriver.pbi : index eepromStdtoHalDriver.xcl
+build eepromStore.pbi : index eepromStore.xcl
+build usr_flash.pbi : index usr_flash.xcl
+build EventLogger.pbi : index EventLogger.xcl
+build EventLoggerFlash.pbi : index EventLoggerFlash.xcl
+build i2c_init.pbi : index i2c_init.xcl
+build Led1.pbi : index Led1.xcl
+build Led2.pbi : index Led2.xcl
+build Led3.pbi : index Led3.xcl
+build LedCommon.pbi : index LedCommon.xcl
+build bat_i2c.pbi : index bat_i2c.xcl
+build LTC4015.pbi : index LTC4015.xcl
+build LTC4015_main.pbi : index LTC4015_main.xcl
+build store_soc.pbi : index store_soc.xcl
+build BrushPwm.pbi : index BrushPwm.xcl
+build BrushMotorControl.pbi : index BrushMotorControl.xcl
+build BrushMotorControl_hal.pbi : index BrushMotorControl_hal.xcl
+build Pwm1.pbi : index Pwm1.xcl
+build Motor1Control.pbi : index Motor1Control.xcl
+build Motor1Control_hal.pbi : index Motor1Control_hal.xcl
+build Pwm2.pbi : index Pwm2.xcl
+build Motor2Control.pbi : index Motor2Control.xcl
+build Motor2Control_hal.pbi : index Motor2Control_hal.xcl
+build LPTimer.pbi : index LPTimer.xcl
+build VBatReg.pbi : index VBatReg.xcl
+build WDTimer.pbi : index WDTimer.xcl
+build NumStrConversion.pbi : index NumStrConversion.xcl
+build PortInterrupt.pbi : index PortInterrupt.xcl
+build Relay.pbi : index Relay.xcl
+build BrushControl.pbi : index BrushControl.xcl
+build RobotControl.pbi : index RobotControl.xcl
+build AutoSchedule.pbi : index AutoSchedule.xcl
+build CycleMode.pbi : index CycleMode.xcl
+build Mot1CurrentFault.pbi : index Mot1CurrentFault.xcl
+build Mot2CurrentFault.pbi : index Mot2CurrentFault.xcl
+build Mot3CurrentFault.pbi : index Mot3CurrentFault.xcl
+build MotCurrentFaultCommon.pbi : index MotCurrentFaultCommon.xcl
+build FaultProcess.pbi : index FaultProcess.xcl
+build RobotOperation.pbi : index RobotOperation.xcl
+build RotateSense1.pbi : index RotateSense1.xcl
+build RotateSense2.pbi : index RotateSense2.xcl
+build RotateSenseCommon.pbi : index RotateSenseCommon.xcl
+build Rtc.pbi : index Rtc.xcl
+build PwmDriveSpi.pbi : index PwmDriveSpi.xcl
+build spi.pbi : index spi.xcl
+build switch.pbi : index switch.xcl
+build temp_sensors.pbi : index temp_sensors.xcl
+build RobotMain.pbi : index RobotMain.xcl
+build TempVariables.pbi : index TempVariables.xcl
+build system_MK22FA12.pbi : index system_MK22FA12.xcl
+build fsl_assert.pbi : index fsl_assert.xcl
+build fsl_debug_console.pbi : index fsl_debug_console.xcl
+build fsl_io.pbi : index fsl_io.xcl
+build fsl_log.pbi : index fsl_log.xcl
+build fsl_str.pbi : index fsl_str.xcl
+build Solar_Robot_BoardTest1_part0.pbi : link board.pbi clock_config.pbi pin_mux.pbi fsl_adc16.pbi fsl_clock.pbi fsl_common.pbi fsl_dspi.pbi fsl_flash.pbi fsl_ftm.pbi fsl_gpio.pbi
+build Solar_Robot_BoardTest1_part1.pbi : link fsl_i2c.pbi fsl_lptmr.pbi fsl_rcm.pbi fsl_rtc.pbi fsl_smc.pbi fsl_uart.pbi fsl_vref.pbi fsl_wdog.pbi adc.pbi APIProcessing.pbi
+build Solar_Robot_BoardTest1_part2.pbi : link ValuesValidate.pbi fun_json.pbi json.pbi ConfigAPIProcess.pbi ConfigUart.pbi DebugUart.pbi ZigbeeAPIMode.pbi ZigbeeUart.pbi CommCommon.pbi serial_debug.pbi
+build Solar_Robot_BoardTest1_part3.pbi : link DefaultValues.pbi delay.pbi EdgeSense1.pbi EdgeSense2.pbi EdgeSenseCommon.pbi eeprom.pbi EepromMain.pbi eepromStdtoHalDriver.pbi eepromStore.pbi usr_flash.pbi
+build Solar_Robot_BoardTest1_part4.pbi : link EventLogger.pbi EventLoggerFlash.pbi i2c_init.pbi Led1.pbi Led2.pbi Led3.pbi LedCommon.pbi bat_i2c.pbi LTC4015.pbi LTC4015_main.pbi
+build Solar_Robot_BoardTest1_part5.pbi : link store_soc.pbi BrushPwm.pbi BrushMotorControl.pbi BrushMotorControl_hal.pbi Pwm1.pbi Motor1Control.pbi Motor1Control_hal.pbi Pwm2.pbi Motor2Control.pbi Motor2Control_hal.pbi
+build Solar_Robot_BoardTest1_part6.pbi : link LPTimer.pbi VBatReg.pbi WDTimer.pbi NumStrConversion.pbi PortInterrupt.pbi Relay.pbi BrushControl.pbi RobotControl.pbi AutoSchedule.pbi CycleMode.pbi
+build Solar_Robot_BoardTest1_part7.pbi : link Mot1CurrentFault.pbi Mot2CurrentFault.pbi Mot3CurrentFault.pbi MotCurrentFaultCommon.pbi FaultProcess.pbi RobotOperation.pbi RotateSense1.pbi RotateSense2.pbi RotateSenseCommon.pbi Rtc.pbi
+build Solar_Robot_BoardTest1_part8.pbi : link PwmDriveSpi.pbi spi.pbi switch.pbi temp_sensors.pbi RobotMain.pbi TempVariables.pbi system_MK22FA12.pbi fsl_assert.pbi fsl_debug_console.pbi fsl_io.pbi
+build Solar_Robot_BoardTest1_part9.pbi : link fsl_log.pbi fsl_str.pbi
+build Solar_Robot_BoardTest1.pbd : link Solar_Robot_BoardTest1_part0.pbi Solar_Robot_BoardTest1_part1.pbi Solar_Robot_BoardTest1_part2.pbi Solar_Robot_BoardTest1_part3.pbi Solar_Robot_BoardTest1_part4.pbi Solar_Robot_BoardTest1_part5.pbi Solar_Robot_BoardTest1_part6.pbi Solar_Robot_BoardTest1_part7.pbi Solar_Robot_BoardTest1_part8.pbi Solar_Robot_BoardTest1_part9.pbi
+build Solar_Robot_BoardTest1.pbw : browsedata Solar_Robot_BoardTest1.pbd
+
+

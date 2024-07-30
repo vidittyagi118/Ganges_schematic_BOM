@@ -1,0 +1,865 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V9.20.2.320/W64 for ARM         30/Dec/2021  15:31:58
+# Copyright 1999-2021 IAR Systems AB.
+#
+#    Cpu mode                     =  thumb
+#    Endian                       =  little
+#    Source file                  =
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\Source\RobotMain.c
+#    Command line                 =
+#        -f
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\release\obj\source\RobotMain.o.rsp
+#        (F:\Ganges_Project\Venkat\SCR_30122021-AN\Source\RobotMain.c -D DEBUG
+#        -D CPU_MK22FN1M0AVLQ12 -lC
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\release\list\source -lA
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\release\list\source
+#        --diag_suppress Pa082,Pa050,Pe167 -o
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\release\obj\source
+#        --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp
+#        --dlib_config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\inc\c\DLib_Config_Normal.h" -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar/../CMSIS/Include\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar/../Source\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar/../Startup\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar/../Drivers\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar/../Utilities/io\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar/../Utilities/str\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar/../Utilities/log\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar/../Utilities\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Board\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\LTC4015\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\DELAY\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\DEBUG\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\OTHER\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\ADC\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\SPI\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\I2C\ -I
+#        "F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\TEMP
+#        SENSORS\\" -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\Communication\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\Communication\DebugUart\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\Communication\ZigbeeUart\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\Communication\ZigbeeApiMode\
+#        -I F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\ZigbeeAPILibrary\
+#        -I F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\RobotControl\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\MotorControl\Motor1\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\MotorControl\Motor1\Pwm1\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\MotorControl\Motor2\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\MotorControl\Motor2\Pwm2\
+#        -I F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\RotateSense\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\RobotOperation\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\DefaultValues\
+#        -I F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\EdgeSensor\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\PortInterrupt\
+#        -I F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\Relay\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\AutoMode\ -I
+#        "F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\API
+#        PROCESSING\\" -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\EEPROM\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\RobotOperation\CycleMode\
+#        -I F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\RTC\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\MotorControl\BrushMotor\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\MotorControl\BrushMotor\BrushPwm\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\RobotControl\BrushControl\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\RobotOperation\AutoSchedule\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\RobotOperation\FaultProcess\OverCurrentFault\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\RobotOperation\FaultProcess\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\OTHER\LPTimer\
+#        -I F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\LED\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\LED\LED1\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\LED\LED2\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\LED\LED3\ -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\OTHER\WDTimer\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\OTHER\VBatREG\
+#        -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\Communication\ConfigUart\
+#        -I
+#        "F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\Communication\ConfigUart\ConfigUart
+#        API Process\\" -I
+#        "F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\Communication\ConfigUart\ConfigUart
+#        API Process\JsonParser\\" -I
+#        "F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\Event
+#        Logger\\" -I
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\..\Source\SWITCH\ -Oh
+#        --use_c++_inline) --dependencies=n
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\release\obj\source\RobotMain.o.d
+#    Locale                       =  C
+#    List file                    =
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\release\list\source\RobotMain.lst
+#    Object file                  =
+#        F:\Ganges_Project\Venkat\SCR_30122021-AN\iar\release\obj\source\RobotMain.o
+#    Runtime model:                  
+#      __CPP_Runtime              =  1
+#      __SystemLibrary            =  DLib
+#      __dlib_file_descriptor     =  0
+#      __dlib_full_locale_support =  0
+#      __dlib_version             =  6
+#      __iar_require _Printf         
+#
+###############################################################################
+
+F:\Ganges_Project\Venkat\SCR_30122021-AN\Source\RobotMain.c
+      1          #include "board.h"
+      2          #include "fsl_port.h"
+      3          #include "pin_mux.h"
+      4          #include "clock_config.h"
+      5          
+      6          #include "delay.h"
+      7          #include <stdio.h>
+      8          #include <string.h>
+      9          #include <stdlib.h>
+     10          #include "LTC4015_Main.h"
+     11          #include "adc.h"
+     12          #include "spi.h"
+     13          #include "i2c_init.h"
+     14          #include "PwmDriveSpi.h"
+     15          #include "WDTimer.h"
+     16          #include "RobotControl.h"       
+     17          #include "RotateSenseCommon.h"       
+     18          #include "EdgeSenseCommon.h"       
+     19          #include "ZigbeeUart.h"       
+     20          #include "DebugUart.h"  
+     21          #include "ConfigUart.h"      
+     22          #include "DefaultValues.h"       
+     23          #include "RobotOperation.h"       
+     24          #include "PortInterrupt.h"      
+     25          #include "Relay.h"               
+     26          #include "ZigbeeAPIMode.h"       
+     27          #include "MotCurrentFaultCommon.h"       
+     28          #include "CommCommon.h"  
+     29          #include "store_soc.h"     
+     30          #include "FaultProcess.h" 
+     31          #include "APIProcessing.h"
+     32          #include "ConfigAPIProcess.h"
+     33          #include "temp_sensors.h"
+     34          #include "eeprommain.h"
+     35          #include "Rtc.h"
+     36          #include "LPTimer.h"
+     37          #include "LedCommon.h"
+     38          #include "Serial_Debug.h"
+     39          #include "NumStrConversion.h"
+     40          #include "Led3.h"
+     41          #include "EventLogger.h"
+     42          #include "eepromStdtoHalDriver.h"
+     43          #include "switch.h"
+     44          
+     45          #include "SDFAT/ff.h"
+     46          #include "SDFAT/ffconf.h"
+     47          #include "SDFAT/diskio.h"
+     48          #include "SDFAT/integer.h"
+     49          #include "SDFAT/SDcardoperation.h"
+     50          
+     51          /*******************************************************************************
+     52          * Definitions
+     53          ******************************************************************************/
+     54          
+
+   \                                 In section .bss, align 1
+     55          BYTE SD_MOUNT_STATUS;
+   \                     SD_MOUNT_STATUS:
+   \        0x0                      DS8 1
+     56          void DispDebugInfo (void);
+     57          static void ProcessUartData(void);
+     58          
+     59          
+
+   \                                 In section .text, align 4, keep-with-next
+     60           void main(void)
+     61          {
+   \                     main: (+1)
+   \        0x0   0xB500             PUSH     {LR}
+   \        0x2   0xB0FF             SUB      SP,SP,#+508
+     62            
+     63            BOARD_InitPins();
+   \        0x4   0x.... 0x....      BL       BOARD_InitPins
+     64            BOARD_BootClockRUN();
+   \        0x8   0x.... 0x....      BL       BOARD_BootClockRUN
+     65            WDTimerInit(WDT_RESET_TIME_START);
+   \        0xC   0xF246 0x10A8      MOVW     R0,#+25000
+   \       0x10   0x.... 0x....      BL       WDTimerInit
+     66            LedInit();
+   \       0x14   0x.... 0x....      BL       LedInit
+     67            LPTMR_Initialisation();
+   \       0x18   0x.... 0x....      BL       LPTMR_Initialisation
+     68            DebugUartInit(); 
+   \       0x1C   0x.... 0x....      BL       DebugUartInit
+     69            ConfigUartInit();        
+   \       0x20   0x.... 0x....      BL       ConfigUartInit
+     70            TransmitWelcomeMessage(DEBUG_UART);
+   \       0x24   0x2001             MOVS     R0,#+1
+   \       0x26   0x.... 0x....      BL       TransmitWelcomeMessage
+     71            TransmitWelcomeMessage(CONFIG_UART); 
+   \       0x2A   0x2002             MOVS     R0,#+2
+   \       0x2C   0x.... 0x....      BL       TransmitWelcomeMessage
+     72            if(RTCInit() == false)
+   \       0x30   0x.... 0x....      BL       RTCInit
+   \       0x34   0xB920             CBNZ.N   R0,??main_0
+     73            {
+     74              SetFault(RTC_FAULT);
+   \       0x36   0x2008             MOVS     R0,#+8
+   \       0x38   0x.... 0x....      BL       SetFault
+     75              Serial_Debug("\n RTC Initialisation ERROR *~*~*~*~*~*");
+   \       0x3C   0x....             LDR.N    R0,??DataTable3
+   \       0x3E   0xE000             B.N      ??main_1
+     76            }
+     77            else
+     78            {
+     79              Serial_Debug("\n RTC Initialisation OK");  
+   \                     ??main_0: (+1)
+   \       0x40   0x....             ADR.N    R0,?_3
+   \                     ??main_1: (+1)
+   \       0x42   0x.... 0x....      BL       Serial_Debug
+     80            } 
+     81            
+     82            //SpiInit();
+     83            //Direct_SPI_Init();//direct pin inits
+     84            ADCInit();
+   \       0x46   0x.... 0x....      BL       ADCInit
+     85            
+     86            WDTimerRefresh();
+   \       0x4A   0x.... 0x....      BL       WDTimerRefresh
+     87            
+     88            if(EEPROM_Init() == false)
+   \       0x4E   0x.... 0x....      BL       EEPROM_Init
+   \       0x52   0xB918             CBNZ.N   R0,??main_2
+     89            {
+     90              Serial_Debug("\n EEPROM Initialisation Failed");   
+   \       0x54   0x....             ADR.N    R0,?_4
+   \       0x56   0x.... 0x....      BL       Serial_Debug
+   \       0x5A   0xE001             B.N      ??main_3
+     91            }
+     92            else
+     93            {
+     94              uint8_t status = (uint8_t)InitialiseEepromVariables();   
+   \                     ??main_2: (+1)
+   \       0x5C   0x.... 0x....      BL       InitialiseEepromVariables
+     95              //SetLogEvent(EV_LOG_EEPROM, status);  
+     96            }
+     97          
+     98            EventLogInit(EEPROM);
+   \                     ??main_3: (+1)
+   \       0x60   0x2001             MOVS     R0,#+1
+   \       0x62   0x.... 0x....      BL       EventLogInit
+     99            DefaultValuesInit();   
+   \       0x66   0x.... 0x....      BL       DefaultValuesInit
+    100            RelayInit();
+   \       0x6A   0x.... 0x....      BL       RelayInit
+    101            DoInitialRelayOff();  //07S
+   \       0x6E   0x.... 0x....      BL       DoInitialRelayOff
+    102            RobotInit();          
+   \       0x72   0x.... 0x....      BL       RobotInit
+    103            RotateSenseInit();    
+   \       0x76   0x.... 0x....      BL       RotateSenseInit
+    104            EdgeSenseInit();     
+   \       0x7A   0x.... 0x....      BL       EdgeSenseInit
+    105            EnablePortInterrupt();
+   \       0x7E   0x.... 0x....      BL       EnablePortInterrupt
+    106            BatteryChargerInit();
+   \       0x82   0x.... 0x....      BL       BatteryChargerInit
+    107            InitI2C();
+   \       0x86   0x.... 0x....      BL       InitI2C
+    108            InitSwitch();
+   \       0x8A   0x.... 0x....      BL       InitSwitch
+    109            //msdelay(2000);
+    110            
+    111            if(ZigbeeUartInit() == ERROR)
+   \       0x8E   0x.... 0x....      BL       ZigbeeUartInit
+   \       0x92   0x2801             CMP      R0,#+1
+   \       0x94   0xBF04             ITT      EQ
+    112            {
+    113              SetFault(ZIGBEE_FAULT);
+   \       0x96   0x2007             MOVEQ    R0,#+7
+   \       0x98   0x.... 0x....      BLEQ     SetFault
+    114              //SetLogEvent(EV_LOG_ZB_UART, (uint8_t)EV_UART_ERROR);
+    115            }
+    116            else
+    117            {
+    118              //SetLogEvent(EV_LOG_ZB_UART, (uint8_t)EV_UART_STARTED); 
+    119            } 
+    120            WDTimerRefresh();
+   \       0x9C   0x.... 0x....      BL       WDTimerRefresh
+    121          #ifndef ZIGBEE_API_MODE_ENABLE
+    122            TransmitWelcomeMessage(ZIGBEE_UART);
+    123          #endif
+    124            FindAndUpdateImotOffsetValue();
+   \       0xA0   0x.... 0x....      BL       FindAndUpdateImotOffsetValue
+    125            UpdateWDTimerValue(WDT_RESET_TIME);
+   \       0xA4   0xF241 0x3088      MOVW     R0,#+5000
+   \       0xA8   0x.... 0x....      BL       UpdateWDTimerValue
+    126            RestartCommTimer();
+   \       0xAC   0x.... 0x....      BL       RestartCommTimer
+    127            
+    128              Direct_SPI_Init();
+   \       0xB0   0x.... 0x....      BL       Direct_SPI_Init
+    129              SD_MOUNT_STATUS = SDcardMount();
+   \       0xB4   0x.... 0x....      BL       SDcardMount
+   \       0xB8   0x....             LDR.N    R1,??DataTable3_1
+   \       0xBA   0x7008             STRB     R0,[R1, #+0]
+    130            
+    131            
+    132            while (1)
+    133            {
+    134              WDTimerRefresh();
+   \                     ??main_4: (+1)
+   \       0xBC   0x.... 0x....      BL       WDTimerRefresh
+    135              OperateLeds();
+   \       0xC0   0x.... 0x....      BL       OperateLeds
+    136              ChargerErrorHandler();
+   \       0xC4   0x.... 0x....      BL       ChargerErrorHandler
+    137              ProcessUartData();
+   \       0xC8   0xF04F 0x30FF      MOV      R0,#+4294967295
+   \       0xCC   0xE9CD 0x0000      STRD     R0,R0,[SP, #+0]
+   \       0xD0   0xF44F 0x71FA      MOV      R1,#+500
+   \       0xD4   0xA802             ADD      R0,SP,#+8
+   \       0xD6   0x.... 0x....      BL       DebugUartReceive
+   \       0xDA   0xB968             CBNZ.N   R0,??main_5
+   \       0xDC   0x.... 0x....      BL       SwitchLed3On
+   \       0xE0   0x2001             MOVS     R0,#+1
+   \       0xE2   0x.... 0x....      BL       SetUartType
+   \       0xE6   0xA802             ADD      R0,SP,#+8
+   \       0xE8   0x.... 0x....      BL       strlen
+   \       0xEC   0xB281             UXTH     R1,R0
+   \       0xEE   0xA802             ADD      R0,SP,#+8
+   \       0xF0   0x.... 0x....      BL       ProcessReceivedJsonData
+   \       0xF4   0x.... 0x....      BL       SwitchLed3Off
+   \                     ??main_5: (+1)
+   \       0xF8   0xF44F 0x72FA      MOV      R2,#+500
+   \       0xFC   0xA902             ADD      R1,SP,#+8
+   \       0xFE   0x4668             MOV      R0,SP
+   \      0x100   0x.... 0x....      BL       ZigbeeUartReceive
+   \      0x104   0xB9B8             CBNZ.N   R0,??main_6
+   \      0x106   0x.... 0x....      BL       RestartCommTimer
+   \      0x10A   0x.... 0x....      BL       SwitchLed3On
+   \      0x10E   0x2000             MOVS     R0,#+0
+   \      0x110   0x.... 0x....      BL       SetUartType
+   \      0x114   0xE9DD 0x0100      LDRD     R0,R1,[SP, #+0]
+   \      0x118   0x.... 0x....      BL       SetReceivedMACAddress
+   \      0x11C   0xA802             ADD      R0,SP,#+8
+   \      0x11E   0x.... 0x....      BL       strlen
+   \      0x122   0xB281             UXTH     R1,R0
+   \      0x124   0xA802             ADD      R0,SP,#+8
+   \      0x126   0x.... 0x....      BL       ProcessReceivedJsonData
+   \      0x12A   0x2000             MOVS     R0,#+0
+   \      0x12C   0x2100             MOVS     R1,#+0
+   \      0x12E   0x.... 0x....      BL       SetReceivedMACAddress
+   \      0x132   0x.... 0x....      BL       SwitchLed3Off
+   \                     ??main_6: (+1)
+   \      0x136   0xF44F 0x71FA      MOV      R1,#+500
+   \      0x13A   0xA802             ADD      R0,SP,#+8
+   \      0x13C   0x.... 0x....      BL       ConfigUartReceive
+   \      0x140   0xB958             CBNZ.N   R0,??main_7
+   \      0x142   0x.... 0x....      BL       SwitchLed3On
+   \      0x146   0x2002             MOVS     R0,#+2
+   \      0x148   0x.... 0x....      BL       SetUartType
+   \      0x14C   0xA802             ADD      R0,SP,#+8
+   \      0x14E   0x.... 0x....      BL       ProcessReceivedJsonData_config
+   \      0x152   0x.... 0x....      BL       SwitchLed3Off
+   \      0x156   0x.... 0x....      BL       RestartCommTimer
+    138              RelayFSM();
+   \                     ??main_7: (+1)
+   \      0x15A   0x.... 0x....      BL       RelayFSM
+    139              RobotOperate();
+   \      0x15E   0x.... 0x....      BL       RobotOperate
+    140              RobotFSM();
+   \      0x162   0x.... 0x....      BL       RobotFSM
+    141              CheckMotorOverLoad();
+   \      0x166   0x.... 0x....      BL       CheckMotorOverLoad
+    142              ZigbeePoll();
+   \      0x16A   0x.... 0x....      BL       ZigbeePoll
+    143              DispDebugInfo();
+   \      0x16E   0x.... 0x....      BL       DispDebugInfo
+    144              CheckAndStoreQC();
+   \      0x172   0x.... 0x....      BL       CheckAndStoreQC
+    145              ControlledCharging();
+   \      0x176   0x.... 0x....      BL       ControlledCharging
+    146              SDcardOperation();
+   \      0x17A   0x.... 0x....      BL       SDcardOperation
+   \      0x17E   0xE79D             B.N      ??main_4
+    147            }
+    148          }
+    149          
+    150          static void ProcessUartData(void)
+    151          {
+    152            uint8_t rxDataBuffer[MAX_UART_RX_BUFFER_LENGTH];
+    153            uint64_t rxMacAddress = DEFAULT_RX_MAC_ADDR;
+    154            if(DebugUartReceive(rxDataBuffer, (sizeof(rxDataBuffer)/sizeof rxDataBuffer[0])) == SUCCESS)
+    155            {
+    156              SwitchLed3On();
+    157              SetUartType(DEBUG_UART);
+    158              ProcessReceivedJsonData(rxDataBuffer,strlen(rxDataBuffer));
+    159              SwitchLed3Off();
+    160            }
+    161            if(ZigbeeUartReceive(&rxMacAddress, rxDataBuffer, (sizeof(rxDataBuffer)/sizeof rxDataBuffer[0])) == SUCCESS)
+    162            {
+    163              RestartCommTimer();
+    164              SwitchLed3On();
+    165              SetUartType(ZIGBEE_UART);
+    166              SetReceivedMACAddress(rxMacAddress);
+    167          #ifdef ZIGBEE_JSON_MODE 
+    168              ProcessReceivedJsonData_config(rxDataBuffer);
+    169          #else
+    170              ProcessReceivedJsonData(rxDataBuffer,strlen(rxDataBuffer));
+    171          #endif
+    172              SetReceivedMACAddress(0);
+    173              SwitchLed3Off();
+    174            }
+    175            if(ConfigUartReceive(rxDataBuffer, (sizeof(rxDataBuffer)/sizeof rxDataBuffer[0])) == SUCCESS)
+    176            {
+    177              SwitchLed3On();
+    178              SetUartType(CONFIG_UART);
+    179              ProcessReceivedJsonData_config(rxDataBuffer);
+    180              SwitchLed3Off();
+    181              RestartCommTimer();
+    182            }
+    183          }
+    184          
+
+   \                                 In section .text, align 2, keep-with-next
+    185          void DispDebugInfo (void)
+    186          {
+   \                     DispDebugInfo: (+1)
+   \        0x0   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \        0x4   0xED2D 0x8B04      VPUSH    {D8-D9}
+   \        0x8   0xB0CA             SUB      SP,SP,#+296
+    187            char dispstring[200];
+    188            static uint32_t timeValue = 0;
+    189            uint32_t msTimeCount = GetLPTimerMsTicks();
+   \        0xA   0x.... 0x....      BL       GetLPTimerMsTicks
+    190            if((msTimeCount - timeValue) > 2000)
+   \        0xE   0x....             LDR.N    R1,??DataTable3_2
+   \       0x10   0x680A             LDR      R2,[R1, #+0]
+   \       0x12   0x1A82             SUBS     R2,R0,R2
+   \       0x14   0xF240 0x73D1      MOVW     R3,#+2001
+   \       0x18   0x429A             CMP      R2,R3
+   \       0x1A   0xD34B             BCC.N    ??DispDebugInfo_0
+    191            {
+    192              timeValue = msTimeCount;
+   \       0x1C   0x6008             STR      R0,[R1, #+0]
+    193              
+    194              snprintf(dispstring, sizeof dispstring, "\nRotateSenseCount : %d, %d, %d, Edge Sensor : %d, %d",
+    195                       GetRotateSenseCount(),GetRotateSense1Count(),GetRotateSense2Count(),
+    196                       IsEdgeSensor1Detected(), IsEdgeSensor2Detected()); 
+   \       0x1E   0x.... 0x....      BL       IsEdgeSensor2Detected
+   \       0x22   0x4604             MOV      R4,R0
+   \       0x24   0x.... 0x....      BL       IsEdgeSensor1Detected
+   \       0x28   0x4605             MOV      R5,R0
+   \       0x2A   0x.... 0x....      BL       GetRotateSense2Count
+   \       0x2E   0x4606             MOV      R6,R0
+   \       0x30   0x.... 0x....      BL       GetRotateSense1Count
+   \       0x34   0x4607             MOV      R7,R0
+   \       0x36   0x.... 0x....      BL       GetRotateSenseCount
+   \       0x3A   0x.... 0x....      LDR.W    R8,??DataTable3_3
+   \       0x3E   0x9403             STR      R4,[SP, #+12]
+   \       0x40   0x4603             MOV      R3,R0
+   \       0x42   0x9502             STR      R5,[SP, #+8]
+   \       0x44   0x9601             STR      R6,[SP, #+4]
+   \       0x46   0x9700             STR      R7,[SP, #+0]
+   \       0x48   0x4642             MOV      R2,R8
+   \       0x4A   0x21C8             MOVS     R1,#+200
+   \       0x4C   0xA817             ADD      R0,SP,#+92
+   \       0x4E   0x.... 0x....      BL       snprintf
+    197              
+    198              Serial_Debug(dispstring);
+   \       0x52   0xA817             ADD      R0,SP,#+92
+   \       0x54   0x.... 0x....      BL       Serial_Debug
+    199              float Imot1 = GetImot1Value();
+   \       0x58   0x.... 0x....      BL       GetImot1Value
+   \       0x5C   0xEEB0 0x8A40      VMOV.F32 S16,S0
+    200              float Imot2 = GetImot2Value();
+   \       0x60   0x.... 0x....      BL       GetImot2Value
+   \       0x64   0xEEF0 0x8A40      VMOV.F32 S17,S0
+    201              float Imot3 = GetImot3Value();
+   \       0x68   0x.... 0x....      BL       GetImot3Value
+   \       0x6C   0xEEB0 0x9A40      VMOV.F32 S18,S0
+    202              char temp1Str[20], temp2Str[30], temp3Str[30];
+    203              ftoa(Imot1, temp1Str, 2);
+   \       0x70   0x2102             MOVS     R1,#+2
+   \       0x72   0xA802             ADD      R0,SP,#+8
+   \       0x74   0xEEB0 0x0A48      VMOV.F32 S0,S16
+   \       0x78   0x.... 0x....      BL       ftoa
+    204              ftoa(Imot2, temp2Str, 2);
+   \       0x7C   0x2102             MOVS     R1,#+2
+   \       0x7E   0xA80F             ADD      R0,SP,#+60
+   \       0x80   0xEEB0 0x0A68      VMOV.F32 S0,S17
+   \       0x84   0x.... 0x....      BL       ftoa
+    205              ftoa(Imot3, temp3Str, 2);
+   \       0x88   0x2102             MOVS     R1,#+2
+   \       0x8A   0xA807             ADD      R0,SP,#+28
+   \       0x8C   0xEEB0 0x0A49      VMOV.F32 S0,S18
+   \       0x90   0x.... 0x....      BL       ftoa
+    206              snprintf(dispstring, sizeof dispstring, "\nImot Values-> Imot_1 = %s, Imot_2 = %s, Imot_3 = %s",temp1Str,temp2Str, temp3Str); 
+   \       0x94   0xA807             ADD      R0,SP,#+28
+   \       0x96   0xA90F             ADD      R1,SP,#+60
+   \       0x98   0x9001             STR      R0,[SP, #+4]
+   \       0x9A   0x9100             STR      R1,[SP, #+0]
+   \       0x9C   0xAB02             ADD      R3,SP,#+8
+   \       0x9E   0xF108 0x0238      ADD      R2,R8,#+56
+   \       0xA2   0x21C8             MOVS     R1,#+200
+   \       0xA4   0xA817             ADD      R0,SP,#+92
+   \       0xA6   0x.... 0x....      BL       snprintf
+    207              Serial_Debug(dispstring);  
+   \       0xAA   0xA817             ADD      R0,SP,#+92
+   \       0xAC   0x.... 0x....      BL       Serial_Debug
+    208          //    Imot1 = GetTemperatureSensorData(TEMPSENSOR_1);
+    209          //    Imot2 = GetTemperatureSensorData(TEMPSENSOR_2);
+    210          //    ftoa(Imot1, temp1Str, 2);
+    211          //    ftoa(Imot2, temp2Str, 2);
+    212          //    snprintf(dispstring, sizeof dispstring, "\nTEMPERATURE-> TEMP_SENSE_1 = %s, TEMP_SENSE_2 = %s",temp1Str,temp2Str); 
+    213          //    Serial_Debug(dispstring); 
+    214              BatteryInfo();
+   \       0xB0   0x.... 0x....      BL       BatteryInfo
+    215            }
+    216          }
+   \                     ??DispDebugInfo_0: (+1)
+   \       0xB4   0xB04A             ADD      SP,SP,#+296
+   \       0xB6   0xECBD 0x8B04      VPOP     {D8-D9}
+   \       0xBA   0xE8BD 0x81F0      POP      {R4-R8,PC}
+
+   \                                 In section .bss, align 4
+   \                     `DispDebugInfo::timeValue`:
+   \        0x0                      DS8 4
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \        0x0   0x....'....        DC32     ?_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_1:
+   \        0x0   0x....'....        DC32     SD_MOUNT_STATUS
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_2:
+   \        0x0   0x....'....        DC32     `DispDebugInfo::timeValue`
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_3:
+   \        0x0   0x....'....        DC32     ?_1
+
+   \                                 In section .rodata, align 4
+   \                     ?_0:
+   \        0x0   0x0A 0x20          DC8 "\012 RTC Initialisation ERROR *~*~*~*~*~*"
+
+   \              0x52 0x54    
+
+   \              0x43 0x20    
+
+   \              0x49 0x6E    
+
+   \              0x69 0x74    
+
+   \              0x69 0x61    
+
+   \              0x6C 0x69    
+
+   \              0x73 0x61    
+
+   \              0x74 0x69    
+
+   \              0x6F 0x6E    
+
+   \              0x20 0x45    
+
+   \              0x52 0x52    
+
+   \              0x4F 0x52    
+
+   \              0x20 0x2A    
+
+   \              0x7E 0x2A    
+
+   \              0x7E 0x2A    
+
+   \              0x7E 0x2A    
+
+   \              0x7E 0x2A    
+
+   \              0x7E 0x2A    
+
+   \              0x00
+   \       0x27                      DS8 1
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ?_3:
+   \        0x0   0x0A 0x20          DC8 "\012 RTC Initialisation OK"
+
+   \              0x52 0x54    
+
+   \              0x43 0x20    
+
+   \              0x49 0x6E    
+
+   \              0x69 0x74    
+
+   \              0x69 0x61    
+
+   \              0x6C 0x69    
+
+   \              0x73 0x61    
+
+   \              0x74 0x69    
+
+   \              0x6F 0x6E    
+
+   \              0x20 0x4F    
+
+   \              0x4B 0x00
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ?_4:
+   \        0x0   0x0A 0x20          DC8 "\012 EEPROM Initialisation Failed"
+
+   \              0x45 0x45    
+
+   \              0x50 0x52    
+
+   \              0x4F 0x4D    
+
+   \              0x20 0x49    
+
+   \              0x6E 0x69    
+
+   \              0x74 0x69    
+
+   \              0x61 0x6C    
+
+   \              0x69 0x73    
+
+   \              0x61 0x74    
+
+   \              0x69 0x6F    
+
+   \              0x6E 0x20    
+
+   \              0x46 0x61    
+
+   \              0x69 0x6C    
+
+   \              0x65 0x64    
+
+   \              0x00
+   \       0x1F                      DS8 1
+
+   \                                 In section .rodata, align 4
+   \                     ?_1:
+   \        0x0   0x0A 0x52          DC8 0x0A, 0x52, 0x6F, 0x74, 0x61, 0x74, 0x65, 0x53
+
+   \              0x6F 0x74    
+
+   \              0x61 0x74    
+
+   \              0x65 0x53
+   \        0x8   0x65 0x6E          DC8 0x65, 0x6E, 0x73, 0x65, 0x43, 0x6F, 0x75, 0x6E
+
+   \              0x73 0x65    
+
+   \              0x43 0x6F    
+
+   \              0x75 0x6E
+   \       0x10   0x74 0x20          DC8 0x74, 0x20, 0x3A, 0x20, 0x25, 0x64, 0x2C, 0x20
+
+   \              0x3A 0x20    
+
+   \              0x25 0x64    
+
+   \              0x2C 0x20
+   \       0x18   0x25 0x64          DC8 0x25, 0x64, 0x2C, 0x20, 0x25, 0x64, 0x2C, 0x20
+
+   \              0x2C 0x20    
+
+   \              0x25 0x64    
+
+   \              0x2C 0x20
+   \       0x20   0x45 0x64          DC8 0x45, 0x64, 0x67, 0x65, 0x20, 0x53, 0x65, 0x6E
+
+   \              0x67 0x65    
+
+   \              0x20 0x53    
+
+   \              0x65 0x6E
+   \       0x28   0x73 0x6F          DC8 0x73, 0x6F, 0x72, 0x20, 0x3A, 0x20, 0x25, 0x64
+
+   \              0x72 0x20    
+
+   \              0x3A 0x20    
+
+   \              0x25 0x64
+   \       0x30   0x2C 0x20          DC8 0x2C, 0x20, 0x25, 0x64, 0
+
+   \              0x25 0x64    
+
+   \              0x00
+   \       0x35                      DS8 3
+   \       0x38   0x0A 0x49          DC8 0x0A, 0x49, 0x6D, 0x6F, 0x74, 0x20, 0x56, 0x61
+
+   \              0x6D 0x6F    
+
+   \              0x74 0x20    
+
+   \              0x56 0x61
+   \       0x40   0x6C 0x75          DC8 0x6C, 0x75, 0x65, 0x73, 0x2D, 0x3E, 0x20, 0x49
+
+   \              0x65 0x73    
+
+   \              0x2D 0x3E    
+
+   \              0x20 0x49
+   \       0x48   0x6D 0x6F          DC8 0x6D, 0x6F, 0x74, 0x5F, 0x31, 0x20, 0x3D, 0x20
+
+   \              0x74 0x5F    
+
+   \              0x31 0x20    
+
+   \              0x3D 0x20
+   \       0x50   0x25 0x73          DC8 0x25, 0x73, 0x2C, 0x20, 0x49, 0x6D, 0x6F, 0x74
+
+   \              0x2C 0x20    
+
+   \              0x49 0x6D    
+
+   \              0x6F 0x74
+   \       0x58   0x5F 0x32          DC8 0x5F, 0x32, 0x20, 0x3D, 0x20, 0x25, 0x73, 0x2C
+
+   \              0x20 0x3D    
+
+   \              0x20 0x25    
+
+   \              0x73 0x2C
+   \       0x60   0x20 0x49          DC8 0x20, 0x49, 0x6D, 0x6F, 0x74, 0x5F, 0x33, 0x20
+
+   \              0x6D 0x6F    
+
+   \              0x74 0x5F    
+
+   \              0x33 0x20
+   \       0x68   0x3D 0x20          DC8 0x3D, 0x20, 0x25, 0x73, 0
+
+   \              0x25 0x73    
+
+   \              0x00
+   \       0x6D                      DS8 3
+    217          
+    218          
+    219          
+    220          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+     336   DispDebugInfo
+       336   -> BatteryInfo
+       336   -> GetImot1Value
+       336   -> GetImot2Value
+       336   -> GetImot3Value
+       336   -> GetLPTimerMsTicks
+       336   -> GetRotateSense1Count
+       336   -> GetRotateSense2Count
+       336   -> GetRotateSenseCount
+       336   -> IsEdgeSensor1Detected
+       336   -> IsEdgeSensor2Detected
+       336   -> Serial_Debug
+       336   -> ftoa
+       336   -> snprintf
+     512   main
+       512   -> ADCInit
+       512   -> BOARD_BootClockRUN
+       512   -> BOARD_InitPins
+       512   -> BatteryChargerInit
+       512   -> ChargerErrorHandler
+       512   -> CheckAndStoreQC
+       512   -> CheckMotorOverLoad
+       512   -> ConfigUartInit
+       512   -> ConfigUartReceive
+       512   -> ControlledCharging
+       512   -> DebugUartInit
+       512   -> DebugUartReceive
+       512   -> DefaultValuesInit
+       512   -> Direct_SPI_Init
+       512   -> DispDebugInfo
+       512   -> DoInitialRelayOff
+       512   -> EEPROM_Init
+       512   -> EdgeSenseInit
+       512   -> EnablePortInterrupt
+       512   -> EventLogInit
+       512   -> FindAndUpdateImotOffsetValue
+       512   -> InitI2C
+       512   -> InitSwitch
+       512   -> InitialiseEepromVariables
+       512   -> LPTMR_Initialisation
+       512   -> LedInit
+       512   -> OperateLeds
+       512   -> ProcessReceivedJsonData
+       512   -> ProcessReceivedJsonData_config
+       512   -> RTCInit
+       512   -> RelayFSM
+       512   -> RelayInit
+       512   -> RestartCommTimer
+       512   -> RobotFSM
+       512   -> RobotInit
+       512   -> RobotOperate
+       512   -> RotateSenseInit
+       512   -> SDcardMount
+       512   -> SDcardOperation
+       512   -> Serial_Debug
+       512   -> SetFault
+       512   -> SetReceivedMACAddress
+       512   -> SetUartType
+       512   -> SwitchLed3Off
+       512   -> SwitchLed3On
+       512   -> TransmitWelcomeMessage
+       512   -> UpdateWDTimerValue
+       512   -> WDTimerInit
+       512   -> WDTimerRefresh
+       512   -> ZigbeePoll
+       512   -> ZigbeeUartInit
+       512   -> ZigbeeUartReceive
+       512   -> strlen
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_2
+       4  ??DataTable3_3
+      40  ?_0
+     112  ?_1
+      24  ?_3
+      32  ?_4
+     190  DispDebugInfo
+       1  SD_MOUNT_STATUS
+     384  main
+       4  timeValue
+
+ 
+   5 bytes in section .bss
+ 152 bytes in section .rodata
+ 646 bytes in section .text
+ 
+ 646 bytes of CODE  memory
+ 152 bytes of CONST memory
+   5 bytes of DATA  memory
+
+Errors: none
+Warnings: none

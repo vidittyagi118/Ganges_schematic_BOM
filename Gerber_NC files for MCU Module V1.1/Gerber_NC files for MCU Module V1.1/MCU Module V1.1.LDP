@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: D:\07. My work\work\PCB Re-design Scope of Work\Design\MCU Module Design\V1.1\MCU Module V1.1.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=mcu module v1.1.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_1_Blind_Vias|DrillFile=mcu module v1.1.tx1|DrillLayers=gtl,g1
+LayersSetName=Top_2_Blind_Vias|DrillFile=mcu module v1.1.tx2|DrillLayers=gtl,g1,g2

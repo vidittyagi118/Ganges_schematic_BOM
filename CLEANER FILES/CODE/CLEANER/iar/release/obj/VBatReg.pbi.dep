@@ -1,0 +1,30 @@
+VBatReg.pbi: \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\Source\OTHER\VBatREG\VBatReg.c \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\Source\OTHER\VBatREG/VBatReg.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  D:\\Technical\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdbool.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar\..\Board\board.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar\..\Board/clock_config.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../Drivers\fsl_common.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\assert.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\string.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ysizet.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product_string.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stddef.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../Startup\fsl_device_registers.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../Startup/MK22FA12.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../CMSIS/Include\core_cm4.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../CMSIS/Include/cmsis_version.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../CMSIS/Include/cmsis_compiler.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\cmsis_iar.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c/iccarm_builtin.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../Startup/system_MK22FA12.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../Startup/MK22FA12_features.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../Drivers/fsl_clock.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../Drivers/fsl_common.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../Drivers\fsl_gpio.h

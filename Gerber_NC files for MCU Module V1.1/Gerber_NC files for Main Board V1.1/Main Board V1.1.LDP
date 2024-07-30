@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\07. My work\work\PCB Re-design Scope of Work\Design\Main Board Design\V1.1\Main Board V1.1.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=main board v1.1-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=main board v1.1-slotholes.txt|DrillLayers=gtl,gbl

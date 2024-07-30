@@ -1,0 +1,14 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [MCU Module V1.1.PrjPCB]
+   Generated File[MCU Module V1.1.TXT]
+   Generated File[MCU Module V1.1.TX1]
+   Generated File[MCU Module V1.1.TX2]
+   Generated File[MCU Module V1.1.LDP]
+   Generated File[MCU Module V1.1.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 7:54:01 PM On 3/21/2022

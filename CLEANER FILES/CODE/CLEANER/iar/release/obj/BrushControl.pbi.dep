@@ -1,0 +1,15 @@
+BrushControl.pbi: \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\Source\RobotControl\BrushControl\BrushControl.c \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\Source\RobotControl\BrushControl/BrushControl.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  D:\\Technical\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  D:\Technical\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdbool.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar\..\Source\MotorControl\BrushMotor\BrushMotorControl.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar\..\Source\RobotOperation\RobotOperation.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar\..\Source\RobotControl\RobotControl.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar\..\Source\DEBUG\Serial_Debug.h \
+  F:\Ren\RenPrimeRobot\Delete\etfirmware-renprime-b5a126fca983\etfirmware-renprime-b5a126fca983\Test1_RenPrime_Solar_Robot\iar/../Source\customtypedefs.h

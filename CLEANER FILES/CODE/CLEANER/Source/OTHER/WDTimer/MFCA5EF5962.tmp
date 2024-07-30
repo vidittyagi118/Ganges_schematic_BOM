@@ -1,0 +1,20 @@
+#ifndef __WDTIMER_H_
+#define __WDTIMER_H_
+
+#include <stdint.h>
+#include <stdbool.h>
+
+#define ENABLE_WDT                                                /* Enable Watch Dog Timer */
+
+#ifdef ENABLE_WDT
+  #define WDT_RESET_TIME_START        25000 
+  #define WDT_RESET_TIME              5000
+  #define WDT_OTA_RESET_TIME          25000                     /* We have a NAK time of 10 seconds */
+#endif
+
+bool WDTimerInit (uint32_t timeoutValue);
+void WDTimerDeInit (void);
+void UpdateWDTimerValue (uint32_t timeOutValue);
+void WDTimerRefresh (void);
+
+#endif
